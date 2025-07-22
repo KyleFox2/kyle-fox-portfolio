@@ -11,7 +11,7 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">FoxAssured</div>
+      <div class="logo"><a href="/">FoxAssured</a></div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -55,18 +55,24 @@
           </button>
         </div>
         <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/kyle-fox1/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/KyleFox2'"
-          />
+          <a href="https://www.linkedin.com/in/kyle-fox1/" target="_blank">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+            />
+          </a>
+          <a
+            href="https://github.com/KyleFox2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/github.png"
+              alt="My GitHub profile"
+              class="icon"
+            />
+          </a>
         </div>
       </div>
     </section>
@@ -80,7 +86,7 @@
               <img
                 src="./assets/experience.png"
                 alt="Experience icon"
-                class="icon"
+                class="icon-two"
               />
               <h3>Experience</h3>
               <p>4+ years of Quality Assurance</p>
@@ -89,7 +95,7 @@
               <img
                 src="./assets/education.png"
                 alt="Education icon"
-                class="icon"
+                class="icon-two"
               />
               <h3>Education</h3>
               <p>BCS Software testing Apprenticeship</p>
@@ -332,7 +338,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/KyleFox2/clock-app'"
+                onclick="window.open('https://github.com/KyleFox2/clock-app', '_blank')"
               >
                 GitHub
               </button>
@@ -356,7 +362,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/KyleFox2/demo-selenium-test'"
+                onclick="window.open('https://github.com/KyleFox2/demo-selenium-test', '_blank')"
               >
                 GitHub
               </button>
@@ -380,7 +386,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/KyleFox2/calculator'"
+                onclick="window.open('https://github.com/KyleFox2/calculator', '_blank')"
               >
                 GitHub
               </button>
@@ -410,12 +416,18 @@
           </p>
         </div>
         <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/in/kyle-fox1/">LinkedIn</a></p>
+          <a href="https://www.linkedin.com/in/kyle-fox1/" target="_blank">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+            />
+          </a>
+          <p>
+            <a href="https://www.linkedin.com/in/kyle-fox1/" target="_blank"
+              >LinkedIn</a
+            >
+          </p>
         </div>
       </div>
     </section>
