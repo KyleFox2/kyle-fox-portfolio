@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoxAssured</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../blog-style.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+  </head>
+
+  <body class="light-theme">
+    <nav id="desktop-nav">
+      <div class="logo">FoxAssured</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="/">Portfolio</a></li>
+          <li><a href="/blog.html">Blogs</a></li>
+      </div>
+    </nav>
+    <main>
+      <div class="main">
+        <div class="container">
+
+          <div class="blog">
+            <div class="blog-card-group">
+              <div class="blog-card-two">
+                <div class="blog-content-wrapper">
+
+                  <h3>
+                      My First Time Setting Up a Pipeline
+                      <br><br>
+                  </h3>
+
+                  <p class="blog-text-two">
+                    Setting up my first CI/CD pipeline was a mix of excitement and confusion. I’d written automation tests locally, but getting them to run automatically on every commit felt like a huge leap.
+                    <br><br>
+                    I started with GitHub Actions because it’s free, well-documented, and integrates nicely with GitHub repos. But at first, my pipeline was a mess. Tests failed mysteriously, dependencies were missing, and the logs were hard to decipher.
+                    <br><br>
+                    It took a lot of trial and error. I learned how to write workflow files in YAML, how to install dependencies, and how to configure the environment for headless browser testing. I also discovered the importance of caching dependencies to speed up pipeline runs.
+                    <br><br>
+                    Gradually, my tests began passing consistently, and the pipeline started sending me email notifications when something broke. That was a major milestone.
+                    <br><br>
+                    Having this automated feedback loop made me feel like my automation work had leveled up. I no longer had to manually run tests or worry about changes breaking the build without me noticing.
+                    <br><br>
+                    Since then, CI/CD pipelines have become a standard part of my workflow. They give me peace of mind and help deliver quality code faster.
+                    <br><br>
+                    If you’re new to pipelines, my advice is to start simple, be patient, and learn as you go. The payoff is absolutely worth it.
+                    <br><br>
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./blog-assets/author.png"
+                        alt="Kyle Fox"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Kyle Fox</a>
+
+                      <p class="text-sm">
+                        <time datetime="2022-01-17">July 23, 2025</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="aside">
+            <div class="contact">
+              <h2 class="h2">Let's Talk</h2>
+
+              <div class="wrapper">
+                <p>
+                  Do you want to learn more about how I can help your company
+                  overcome problems? Let us have a conversation.
+                </p>
+                <img
+                  src="./blog-assets/linkedin.png"
+                  alt="My LinkedIn profile"
+                  class="icon"
+                  onclick="location.href='https://www.linkedin.com/in/kyle-fox1/'"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p class="copyright">Copyright &#169; 2025 Kyle Fox. All Rights Reserved.</p>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

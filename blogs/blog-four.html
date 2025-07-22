@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoxAssured</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../blog-style.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+  </head>
+
+  <body class="light-theme">
+    <nav id="desktop-nav">
+      <div class="logo">FoxAssured</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="/">Portfolio</a></li>
+          <li><a href="/blog.html">Blogs</a></li>
+      </div>
+    </nav>
+    <main>
+      <div class="main">
+        <div class="container">
+
+          <div class="blog">
+            <div class="blog-card-group">
+              <div class="blog-card-two">
+                <div class="blog-content-wrapper">
+
+                  <h3>
+                      What I’ve Learned About Reliable Test Automation
+                      <br><br>
+                  </h3>
+
+                  <p class="blog-text-two">
+                    Automated tests are great when they work — but I quickly learned they can be frustratingly unreliable if you’re not careful.
+                    <br><br>
+                    Early on, I dealt with flaky tests that randomly failed for no obvious reason. Sometimes they passed on my machine but failed in the CI pipeline or on other team members’ computers. This unpredictability made me question if automation was worth the effort.
+                    <br><br>
+                    I discovered that test reliability is key. If your tests aren’t consistent, they generate noise and mistrust, and teams tend to ignore their results — which defeats the whole purpose of automation.
+                    <br><br>
+                    To improve reliability, I started focusing on stable selectors — avoiding brittle element locators like auto-generated IDs or fragile XPath expressions. Instead, I chose selectors that are less likely to change, like data attributes.
+                    <br><br>
+                    I also learned to add appropriate waits and avoid hardcoded timing delays. Waiting for elements to appear or for network requests to complete makes tests much more stable.
+                    <br><br>
+                    Testing realistic user flows instead of fragile UI details helped me reduce false positives. It’s better to validate the bigger picture of user behavior than test minor style changes that don’t impact functionality.
+                    <br><br>
+                    Now, when I write automation tests, reliability is my top priority. It ensures the tests become a trusted safety net, not a source of frustration.
+                    <br><br>
+                    Good, reliable automation accelerates development and helps teams deliver better software faster. It’s worth the extra effort.
+                    <br><br>
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./blog-assets/author.png"
+                        alt="Kyle Fox"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Kyle Fox</a>
+
+                      <p class="text-sm">
+                        <time datetime="2022-01-17">May 3, 2025</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="aside">
+            <div class="contact">
+              <h2 class="h2">Let's Talk</h2>
+
+              <div class="wrapper">
+                <p>
+                  Do you want to learn more about how I can help your company
+                  overcome problems? Let us have a conversation.
+                </p>
+                <img
+                  src="./blog-assets/linkedin.png"
+                  alt="My LinkedIn profile"
+                  class="icon"
+                  onclick="location.href='https://www.linkedin.com/in/kyle-fox1/'"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p class="copyright">Copyright &#169; 2025 Kyle Fox. All Rights Reserved.</p>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
